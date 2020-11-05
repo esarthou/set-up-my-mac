@@ -10,12 +10,12 @@ echo "  Installing Homebrew for you."
 # mas is only necessary for apps that are restricted to be downloaded from the appstore
 brew install mas
 
-# Install XCode CLI developer tools
-xcode-select --install
-
 # To install an app using mas we need to get the apps ID on the appstore. example:
 # Installs XCode 
 mas install 497799835
+
+# Install XCode CLI developer tools
+xcode-select --install
 
 # Update any existing homebrew recipes
 # brew update

@@ -60,12 +60,3 @@ brew cask install authy
 brew cask install phpstorm
 brew cask install beekeeper-studio
 brew cask install zoom
-
-
-
-# Remove brew cruft
-brew cleanup
-
-# Remove cask cruft
-brew cask cleanup
-

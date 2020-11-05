@@ -40,7 +40,7 @@ brew install gimme-aws-creds
 # Node version we're currently using at work
 nvm install 12.16.1
 
-echo Now moving on to UI apps
+echo " Now moving on to UI apps. "
 
 # Install cask
 brew tap phinze/homebrew-cask

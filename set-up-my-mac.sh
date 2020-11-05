@@ -75,5 +75,5 @@ brew cleanup
 brew cask cleanup
 
 # To install an app using mas we need to get the app's ID on the appstore. example:
-# Installs Harvest 
-# mas install 506189836
+# Installs XCode 
+mas install 497799835

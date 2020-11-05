@@ -1,8 +1,8 @@
 #!/bin/bash
 
-echo Starting automated app installer.
+echo " Starting automated app installer. "
 
-echo First we'll go through CLI tools
+echo " First we go through CLI tools. " 
 
 echo "  Installing Homebrew for you."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -13,7 +13,7 @@ brew install mas
 # Install XCode CLI developer tools
 xcode-select --install
 
-# To install an app using mas we need to get the app's ID on the appstore. example:
+# To install an app using mas we need to get the apps ID on the appstore. example:
 # Installs XCode 
 mas install 497799835
 
